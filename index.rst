@@ -12,9 +12,9 @@ Welcome to ELIXIR Data Transfer's documentation!
 
    gridftp-CIlogon-proxy/gridftp-transfer-using-CIlogon-proxy-cert
 
-Indices and tables
-==================
+.. Indices and tables
+   ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+   * :ref:`modindex`
+   * :ref:`search`
