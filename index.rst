@@ -10,7 +10,7 @@ Welcome to ELIXIR Data Transfer's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   gridftp-CIlogon-proxy/gridftp-transfer-using-CIlogon-proxy-cert
 
 Indices and tables
 ==================
