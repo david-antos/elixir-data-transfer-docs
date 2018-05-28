@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=ELIXIRDataTransferDocumentation
+set SPHINXPROJ=ELIXIRDataTransfer
 
 if "%1" == "" goto help
 
