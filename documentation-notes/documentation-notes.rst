@@ -67,8 +67,20 @@ is not to complicate things beyond necessary, you'd have to install the
 *Read the Docs* style locally.
 
 
-Who
-===
+Tips and tricks
+===============
+
+If you're unlucky enough to have your documentation in Google Docs or any
+other format (even lacking proper logical markup), you may try `Pandoc
+<http://pandoc.org/>`_ to convert it.
+
+Initial conversion of this group's documentation in Google Docs has been
+produced by exporting to ``docx``, converting according to `Mpei's Blog
+<https://peintinger.com/?p=365>`_ and heavily edited by hand.
+
+
+Contacts
+========
 
 For write access to the *GitHub* repo, requirements to add plugins (keep it
 reasonable, please), change the config of *Read the Docs*, please contact
