@@ -2,7 +2,7 @@
 Brief notes on gridftp transfers using proxy certificates from the ELIXIR CILogon service.
 ==========================================================================================
 
-Mikael Borg
+*Mikael Borg*
 
 Feb 2016
 
