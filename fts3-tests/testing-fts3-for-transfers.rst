@@ -253,21 +253,21 @@ Notes
 =====
 
 -  The FTS3 service seems to fulfill most of the requirements that we
-       have for an ELIXIR data transfer service: multi-protocol,
-       monitoring and logging, checksums, API, web gui, …
+   have for an ELIXIR data transfer service: multi-protocol,
+   monitoring and logging, checksums, API, web gui, …
 
 -  The software is free software (Apache License, Version 2.0) and seems
-       straight-forward to deploy. All components are available in the
-       RHEL/CENTOS EPEL repository. `*Installation and configuration
-       guide* <http://fts3-docs.web.cern.ch/fts3-docs/docs/install.html>`__.
+   straight-forward to deploy. All components are available in the
+   RHEL/CENTOS EPEL repository. `Installation and configuration
+   guide <http://fts3-docs.web.cern.ch/fts3-docs/docs/install.html>`__.
 
 -  The fts3 development team is very approachable.
 
 -  Some development is needed if we want to make the webfts interface
-       connect to the ELIXIR credential translation service for proxy
-       certificates.
+   connect to the ELIXIR credential translation service for proxy
+   certificates.
 
 -  It seems like logs of transfers jobs are per default public. This
-       might be a problem in some cases (e.g. pharma companies that want
-       to hide what they are working on).
+   might be a problem in some cases (e.g. pharma companies that want
+   to hide what they are working on).
 
