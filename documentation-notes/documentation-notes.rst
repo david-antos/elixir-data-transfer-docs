@@ -1,0 +1,76 @@
+============================
+How to Prepare Documentation
+============================
+
+*David Antos*
+
+May 2018
+
+Where
+=====
+
+ELIXIR Data Transfer documentation is published on
+http://elixir-data-transfer-docs.readthedocs.io/. Its source codes are kept
+on https://github.com/david-antos/elixir-data-transfer-docs. When changes
+are pushed to *GitHub*, *Read the Docs* published version gets regenerated
+automatically.
+
+How
+===
+
+reStructuredText
+----------------
+
+The documentation is preferrably written in reStructuredText format. Using
+Markdown is also possible, but it is much less standardised. For good
+reasons to prefer reStructuredText, see
+http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/.
+
+If you're new to reStructuredText, there are some docs for you:
+  - `reStructuredText Primer <http://docutils.sourceforge.net/docs/user/rst/quickstart.html>`_ is a good start
+  - `Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_ for quick reference
+  - `Full Specification <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_ is good when strange things happen
+  - `reStructuredText and Sphinx Cheat Sheet <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_ is a good and concise reference
+
+Please note that reStructuredText is extremely picky to text
+indentation. If you run into trouble, check your indentation first.
+
+Necessary local software
+------------------------
+
+You'll need
+  - git
+  - any text editor
+  - (optional but recommended) `Sphinx <http://www.sphinx-doc.org/>`_ will
+    allow you to generate the documentation locally
+
+Writing new documentation/article
+---------------------------------
+
+Kindly add a folder to the repository for a new article to keep it neat.
+Write the documentation (using ``.rst`` file suffix is recommended). Make a
+link to the documentation from ``index.rst``.
+
+If you have Sphinx installed, you can prepare local preview of your docs.
+Just run
+
+::
+
+  make html
+
+(or a windows bat equivalent) in the main folder and point your browser to
+``_build/html/index.html``. Or any other format you like.
+
+Please note: to keep things simple, we use built-in Sphinx style for local
+html output. It differs from the style on the *Read the Docs* site. The reason
+is not to complicate things beyond necessary, you'd have to install the
+*Read the Docs* style locally.
+
+
+Who
+===
+
+For write access to the *GitHub* repo, requirements to add plugins (keep it
+reasonable, please), change the config of *Read the Docs*, please contact
+David Antos (david (dot) antos (atsymbol) cesnet.cz).
+

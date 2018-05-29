@@ -21,6 +21,12 @@ Welcome to ELIXIR Data Transfer's documentation!
 
    fts3-tests/testing-fts3-for-transfers
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Documentation on Documentation:
+
+   documentation-notes/documentation-notes
+
 .. Indices and tables
    ==================
 
