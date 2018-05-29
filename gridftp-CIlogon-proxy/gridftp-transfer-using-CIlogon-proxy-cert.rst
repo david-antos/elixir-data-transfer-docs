@@ -99,12 +99,11 @@ Here, a data transfer between two gridftp endpoints is initiated from my worksta
 Set up additional gridftp endpoint. Obtain ELIXIR proxy certificate.
 
 
-\1. Test without installing CA on new endpoint (should not work)::
+1. Test without installing CA on new endpoint (should not work)::
 
   $ globus-url-copy -v -vb -nodcau gsiftp://gridftp.bils.se/home/borg/tmp/nt.00.tar.gz gsiftp://gridftp.borg.hk/home/borg/tmp/nt.00.tar.gz
   Source: gsiftp://gridftp.bils.se/home/borg/tmp/
-  Dest:   gsiftp://gridftp.borg.hk/home/borg/tmp/
-    nt.00.tar.gz
+  Dest:   gsiftp://gridftp.borg.hk/home/borg/tmp/nt.00.tar.gz
 
   error: globus_ftp_client: the server responded with an error
   530 530-globus_xio: Authentication Error
@@ -114,12 +113,11 @@ Set up additional gridftp endpoint. Obtain ELIXIR proxy certificate.
   530 End.
 
 
-\2. Install CA certificate and try again (should still not work)::
+2. Install CA certificate and try again (should still not work)::
 
   $ globus-url-copy -v -vb -nodcau gsiftp://gridftp.bils.se/home/borg/tmp/nt.00.tar.gz gsiftp://gridftp.borg.hk/home/borg/tmp/nt.00.tar.gz
   Source: gsiftp://gridftp.bils.se/home/borg/tmp/
-  Dest:   gsiftp://gridftp.borg.hk/home/borg/tmp/
-    nt.00.tar.gz
+  Dest:   gsiftp://gridftp.borg.hk/home/borg/tmp/nt.00.tar.gz
 
   error: globus_ftp_client: the server responded with an error
   530 530-Login incorrect. : globus_gss_assist: Gridmap lookup failure: Could not map /O=Grid/OU=GlobusTest/CN=932d5e00216556be236eff3fb858b9b9297b9a02@elixir-europe.org
@@ -127,12 +125,11 @@ Set up additional gridftp endpoint. Obtain ELIXIR proxy certificate.
   530 End.
 
 
-\3. Add entry to gridmap-file and retry (should work!)::
+3. Add entry to gridmap-file and retry (should work!)::
 
   $ globus-url-copy -v -vb -nodcau gsiftp://gridftp.bils.se/home/borg/tmp/nt.00.tar.gz gsiftp://gridftp.borg.hk/home/borg/tmp/nt.00.tar.gz
   Source: gsiftp://gridftp.bils.se/home/borg/tmp/
-  Dest:   gsiftp://gridftp.borg.hk/home/borg/tmp/
-    nt.00.tar.gz
+  Dest:   gsiftp://gridftp.borg.hk/home/borg/tmp/nt.00.tar.gz
 
           836184904 bytes            78.18 MB/sec avg            80.99 MB/sec inst
 
@@ -141,3 +138,4 @@ Set up additional gridftp endpoint. Obtain ELIXIR proxy certificate.
   500-globus_xio: The GSI XIO driver failed to establish a secure connection. The failure occured during a handshake read.
   500-globus_xio: An end of file occurred
   500 End.
+
