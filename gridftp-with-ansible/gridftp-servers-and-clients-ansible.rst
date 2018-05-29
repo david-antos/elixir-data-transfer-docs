@@ -5,20 +5,21 @@ GridFTP Servers and Clients with Ansible
 We have created two Ansible roles and an example playbook for the
 deployment of GridFTP servers and/or clients. The role will:
 
--  Install globus software and dependencies as needed
+- Install globus software and dependencies as needed
 
--  Configure gridftp servers
+- Configure gridftp servers
 
-   -  Main config in /etc/gridftp.conf
-   -  Directory access restrictions in /etc/gridftp.d
-   -  Host cert/key in /etc/grid-security
-   -  CA certificates in /etc/grid-security/certificates
-   -  Complete management of mappings in /etc/grid-security/grid-mapfile
+  - Main config in ``/etc/gridftp.conf``
+  - Directory access restrictions in ``/etc/gridftp.d``
+  - Host cert/key in ``/etc/grid-security``
+  - CA certificates in ``/etc/grid-security/certificates``
+  - Complete management of mappings in
+    ``/etc/grid-security/grid-mapfile``
 
--  Start the service and enable it at boot
--  Open firewall ports if firewalld is detected
--  Install fetch-crl and cron jobs on servers to maintain revocation lists
--  Install UberFTP of clients
+- Start the service and enable it at boot
+- Open firewall ports if firewalld is detected
+- Install fetch-crl and cron jobs on servers to maintain revocation lists
+- Install UberFTP of clients
 
 This playbook will also transfer SimpleCA certificates from the server
 to all the clients, a step that is only needed if you don’t have access
@@ -279,7 +280,7 @@ running ansible)::
   source $PROVISION/ansible/hacking/env-setup
 
 It is also worth taking the time to configure ansible in a custom
-``ansible.cfg``:
+``ansible.cfg``::
 
   export ANSIBLE_CONFIG=$PROVISION/ansible.cfg
   cat <<EOF >$ANSIBLE_CONFIG
