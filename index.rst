@@ -8,9 +8,14 @@ Welcome to ELIXIR Data Transfer's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: GridFTP:
 
+   gridftp-installation/gridftp-installation
+   gridftp-with-ansible/gridftp-servers-and-clients-ansible
    gridftp-CIlogon-proxy/gridftp-transfer-using-CIlogon-proxy-cert
+
+   :caption: FTS3:
+   fts3-tests/testing-fts3-for-transfers
 
 .. Indices and tables
    ==================
