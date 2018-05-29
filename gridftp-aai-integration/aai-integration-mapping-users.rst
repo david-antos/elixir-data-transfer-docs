@@ -80,11 +80,11 @@ accepted. For testing purposes, it is possible to use an ELIXIR proxy
 certificate though:
 
 -  Obtain ELIXIR proxy certificate from
-       `CILogon <https://elixir-cilogon-mp.grid.cesnet.cz/vo-portal/startRequest>`__
-       and save to a file, e.g. cert.txt
+   `CILogon <https://elixir-cilogon-mp.grid.cesnet.cz/vo-portal/startRequest>`__
+   and save to a file, e.g. cert.txt
 
 -  Run ``edg-mkgridmap`` in user mode with environment variable
-       ``X509_USER_PROXY`` pointing to your proxy certificate, e.g.::
+   ``X509_USER_PROXY`` pointing to your proxy certificate, e.g.::
 
      X509\_USER\_PROXY=$HOME/cert.txt edg-mkgridmap --usermode
 
