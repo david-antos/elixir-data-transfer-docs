@@ -84,17 +84,19 @@ Working with Git repository
 For the time being, there is no urge for a strict “editorial process” to be
 put in place. The core team members of data transfer may have write access
 to the GitHub repository. Please keep in mind that committing to the
-repository directly rebuilds the documentation on the public website. You
-are therefore advised to push material suitable for public viewing (it
-doesn't have to necessarily be finished, of course) and compilable. Check
-your work locally or at least check the public website after pushing
-changes. The branch-to-be-published is “master”.
+repository directly rebuilds the documentation on the public website. The
+branch-to-be-published is “master”. You are therefore advised to push
+material suitable for public viewing (it doesn't have to necessarily be
+finished, of course) and compilable. Check your work locally or at least
+check the public website after pushing changes. Use a branch for
+development.
 
-Ask David or any other collaborator to add your GitHub identity to
-the project.
+Ask David or any other collaborator to grant you access to the repository
+(including your GitHub identity to this request speeds things up).
 
 If you are an outside contributor or if you feel you'd prefer your
-documentation to be reviewed before publishing, use the “fork and pull”
+documentation to be extensively reviewed before publishing, use the “fork
+and pull”
 model. Fork the repository, create a branch, do your stuff, and create a
 pull request. Refer to
 https://help.github.com/categories/collaborating-with-issues-and-pull-requests/
