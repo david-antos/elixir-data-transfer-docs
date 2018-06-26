@@ -66,7 +66,6 @@ html output. It differs from the style on the *Read the Docs* site. The reason
 is not to complicate things beyond necessary, you'd have to install the
 *Read the Docs* style locally.
 
-
 Tips and tricks
 ===============
 
@@ -77,6 +76,30 @@ other format (even lacking proper logical markup), you may try `Pandoc
 Initial conversion of this group's documentation in Google Docs has been
 produced by exporting to ``docx``, converting according to `Mpei's Blog
 <https://peintinger.com/?p=365>`_ and heavily edited by hand.
+
+
+Working with Git repository
+===========================
+
+For the time being, there is no urge for a strict “editorial process” to be
+put in place. The core team members of data transfer may have write access
+to the GitHub repository. Please keep in mind that committing to the
+repository directly rebuilds the documentation on the public website. You
+are therefore advised to push material suitable for public viewing (it
+doesn't have to necessarily be finished, of course) and compilable. Check
+your work locally or at least check the public website after pushing
+changes. The branch-to-be-published is “master”.
+
+Ask David or any other collaborator to add your GitHub identity to
+the project.
+
+If you are an outside contributor or if you feel you'd prefer your
+documentation to be reviewed before publishing, use the “fork and pull”
+model. Fork the repository, create a branch, do your stuff, and create a
+pull request. Refer to
+https://help.github.com/categories/collaborating-with-issues-and-pull-requests/
+if you need to get familiar with the process.
+
 
 
 Contacts
