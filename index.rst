@@ -12,7 +12,6 @@ Welcome to ELIXIR Data Transfer's documentation!
 
    gridftp-installation/gridftp-installation
    gridftp-with-ansible/gridftp-servers-and-clients-ansible
-   gridftp-aai-integration/aai-integration-mapping-users
    gridftp-CIlogon-proxy/gridftp-transfer-using-CIlogon-proxy-cert
 
 .. toctree::
@@ -20,6 +19,13 @@ Welcome to ELIXIR Data Transfer's documentation!
    :caption: FTS3:
 
    fts3-tests/testing-fts3-for-transfers
+
+.. toctree::
+   :maxdepth: 1
+   :caption: AAI aspect and other peculiarities
+
+   gridftp-aai-integration/aai-integration-mapping-users
+   prerequisities-for-RCAuth.eu-certificates/prerequisities-for-RCAuth.eu-certificates
 
 .. toctree::
    :maxdepth: 1
