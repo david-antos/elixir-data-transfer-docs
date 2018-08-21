@@ -22,7 +22,7 @@ Welcome to ELIXIR Data Transfer's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: AAI aspect and other peculiarities
+   :caption: AAI aspects and other peculiarities
 
    gridftp-aai-integration/aai-integration-mapping-users
    prerequisities-for-RCAuth.eu-certificates/prerequisities-for-RCAuth.eu-certificates
