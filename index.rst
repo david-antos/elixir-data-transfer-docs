@@ -10,10 +10,11 @@ Welcome to ELIXIR Data Transfer's documentation!
 life-science information. As part of the H2020 project `ELIXIR-Excelerate
 <https://www.elixir-europe.org/about-us/how-funded/eu-projects/excelerate>`_ 
 to accelerate the implementation of ELIXIR, the `ELIXIR Compute Platform
-<https://www.elixir-europe.org/platforms/compute>`_ task 4.3.3 Data Storage and
-Transfers has investigated, tested and piloted different methods to move
-information between sites. These pages contain findings, recommendations and
-instructions for different scenarios related to data transfers.
+<https://www.elixir-europe.org/platforms/compute>`_ task *4.3.3 Data Storage and
+Transfers* has investigated, tested and piloted different methods to move
+data between sites, compute facilities and users' local environments. These
+pages contain findings, recommendations and instructions for different
+scenarios related to data transfers.
 
 .. image:: images/elixir.png
    :width: 25%
