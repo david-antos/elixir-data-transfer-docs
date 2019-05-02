@@ -23,6 +23,42 @@ scenarios related to data transfers.
 
 .. toctree::
    :maxdepth: 1
+   :caption: Introduction
+
+   overview
+
+Use case-based documentation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. topic:: I want to...
+
+   - deploy a storage endpoint
+
+     - :doc:`gridftp-installation/gridftp-installation`
+     - :doc:`gridftp-with-ansible/gridftp-servers-and-clients-ansible`
+
+   - move data
+
+     - ... to a cloud instance (user to cloud)
+
+       - `Docker image for cloud data ingestion <https://github.com/nmb/ready-to-go>`_
+
+     - ... between workstations (user to user)
+
+       - `FilePizza <https://file.pizza/>`_ (WebRTC in browser)
+       - `ShareDrop <https://www.sharedrop.io/>`_ (WebRTC in browser)
+       - `Magic wormhole <https://magic-wormhole.readthedocs.io/>`_ (command line application)
+       - `FileSender <https://filesender.org/>`_ (web service)
+
+     - ... from a central repository to a local resource, and keep the mirror up to date
+
+       - `Reference Data Set Distribution Service <https://docs.google.com/document/d/1DR4YcKVb0HTq-V6r-5lfEhwz8VPRoPl44uAOL4Fzq7Y/edit#heading=h.gbf4xn8cmekk>`_
+       - `Dat - a protocol for sharing data between computers <https://docs.datproject.org/docs/intro>`_
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
    :caption: GridFTP:
 
    gridftp-installation/gridftp-installation
@@ -30,12 +66,15 @@ scenarios related to data transfers.
    gridftp-CIlogon-proxy/gridftp-transfer-using-CIlogon-proxy-cert
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
    :caption: FTS3:
 
    fts3-tests/testing-fts3-for-transfers
+   Cloud demonstrator <https://github.com/NBISweden/excelerate-demonstrator-4.3>
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
    :caption: AAI aspects and other peculiarities
 
@@ -43,6 +82,7 @@ scenarios related to data transfers.
    prerequisities-for-RCAuth.eu-certificates/prerequisities-for-RCAuth.eu-certificates
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
    :caption: Documentation on Documentation:
 
